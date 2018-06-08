@@ -4,5 +4,7 @@ public with sharing class DemoClass {
     	try{
     		insert acc;
     	}catch(DMLException e){}
+    	
+    	return acc;
     }
 }
